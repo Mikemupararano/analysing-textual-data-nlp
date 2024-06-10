@@ -30,12 +30,11 @@ Before you start, ensure you have Python installed on your system. This project 
 
 # Installing NLTK
 # Install NLTK via pip:
-sh
-Copy code
+
 pip install nltk
 Download the necessary NLTK datasets:
 python
-Copy code
+
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -45,12 +44,10 @@ nltk.download('maxent_ne_chunker')
 nltk.download('words')
 Installing SpaCy
 Install SpaCy via pip:
-sh
-Copy code
+
 pip install spacy
 Download the SpaCy language model:
-sh
-Copy code
+
 python -m spacy download en_core_web_sm
 
 # Text Preprocessing
